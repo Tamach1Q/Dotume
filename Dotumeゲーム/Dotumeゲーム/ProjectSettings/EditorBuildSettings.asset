@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Title.unity
+    guid: 9ff1d132b69554169908b81ffd746eae
+  - enabled: 1
+    path: Assets/Persistent Scene.unity
+    guid: 14556982b29bf461492dca24a5881ba4
+  - enabled: 1
+    path: Assets/Dotume-1.unity
+    guid: b9ab3ffbeeb9f4db6baed0ac2f59ab14
+  - enabled: 1
+    path: Assets/Stage_Field2.unity
+    guid: 4a1067b0a58604c0aa04bc133a772f26
+  - enabled: 1
+    path: Assets/Stage_Field3.unity
+    guid: 9a63d7adfefed434ca282487da0d8c12
+  - enabled: 1
+    path: Assets/Stage_Field4.unity
+    guid: 234800d2087a042f08d7ef6b2ca26528
+  - enabled: 1
+    path: Assets/Stage_Field5.unity
+    guid: 7fe6b96479db2894591ad2244d8c9de1
+  - enabled: 1
+    path: Assets/ClearScene.unity
+    guid: 70aa440c523b948bf8914e3e777700ec
+  m_configObjects:
+    com.unity.input.settings: {fileID: 11400000, guid: 40fb4f63725a741bf97e9fb03e1de84e, type: 2}

@@ -1,0 +1,669 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7464971240057399252
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5426255364347916129}
+  - component: {fileID: 4325141797407990687}
+  - component: {fileID: 3544172713903159277}
+  - component: {fileID: 2390854663265121351}
+  - component: {fileID: 7752862267828193959}
+  - component: {fileID: 3116459578363680917}
+  - component: {fileID: 6621290490875563447}
+  - component: {fileID: 1963388073120433998}
+  - component: {fileID: 672696049709753110}
+  - component: {fileID: 6720770018395368232}
+  - component: {fileID: 2149702678020754701}
+  - component: {fileID: 5393547088080342168}
+  - component: {fileID: 3387890503506595582}
+  - component: {fileID: 640821944937045601}
+  - component: {fileID: 7356173232710388566}
+  - component: {fileID: 3781015573532922137}
+  - component: {fileID: 8314093072347957400}
+  - component: {fileID: 2031481007442227504}
+  - component: {fileID: 8586502909530023506}
+  - component: {fileID: 4606002356809542145}
+  - component: {fileID: 6105970406306035912}
+  - component: {fileID: 3860880992942641375}
+  m_Layer: 0
+  m_Name: Window1_Trigger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5426255364347916129
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7464971240057399252}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &4325141797407990687
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7464971240057399252}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 2}
+  m_EdgeRadius: 0
+--- !u!114 &3544172713903159277
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7464971240057399252}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c618de902e2e64a4db0c530743460392, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerMask:
+    serializedVersion: 2
+    m_Bits: 8
+  oneShot: 0
+  minInterval: 0.2
+  conditions:
+  - {fileID: 2390854663265121351}
+  actionsIfTrue:
+  - {fileID: 7752862267828193959}
+  actionsIfFalse: []
+--- !u!114 &2390854663265121351
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7464971240057399252}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d56888e0ea35c48309ea96ecb6c1dd04, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  flagId: window1_removed
+--- !u!114 &7752862267828193959
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7464971240057399252}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54aad03f2f12c4b028046812d31e1076, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  owner: WordCut
+  word: window
+  cutsRequired: 1
+  guide: Press A or D to cut. Enter to Return
+  winSegment: win
+  windSegment: wind
+  winChanceFlag: win_chance_used
+  onWin:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 3116459578363680917}
+        m_TargetAssemblyTypeName: SetFlagAction, Assembly-CSharp
+        m_MethodName: Execute
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 6621290490875563447}
+        m_TargetAssemblyTypeName: ChoicePopupAction, Assembly-CSharp
+        m_MethodName: Execute
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  onWinBlocked:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 672696049709753110}
+        m_TargetAssemblyTypeName: ShowPopupAction, Assembly-CSharp
+        m_MethodName: Execute
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  onWind:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 6720770018395368232}
+        m_TargetAssemblyTypeName: SetFlagAction, Assembly-CSharp
+        m_MethodName: Execute
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 2149702678020754701}
+        m_TargetAssemblyTypeName: WindStepRouterAction, Assembly-CSharp
+        m_MethodName: Execute
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &3116459578363680917
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7464971240057399252}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d5913e414552403a8b47d24f21ec3ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  flagId: win_chance_used
+  value: 1
+--- !u!114 &6621290490875563447
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7464971240057399252}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 048b66f63f126415086034f9df425416, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  owner: Popup
+  message: Continue? E/Yes,N/No
+  yesKey: 101
+  noKey: 110
+  showKeyHints: 1
+  onYes:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1963388073120433998}
+        m_TargetAssemblyTypeName: LoadSceneAction, Assembly-CSharp
+        m_MethodName: Execute
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  onNo:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 672696049709753110}
+        m_TargetAssemblyTypeName: ShowPopupAction, Assembly-CSharp
+        m_MethodName: Execute
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1963388073120433998
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7464971240057399252}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56370fa00874b4e679232019a5745021, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneName: Stage_Field1
+  delayRealtime: 1
+--- !u!114 &672696049709753110
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7464971240057399252}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22bd5150f8c6a47a3916fd8123a211c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  owner: Popup
+  message: ...
+  requireConfirm: 0
+  durationSeconds: 1
+  onConfirmed:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &6720770018395368232
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7464971240057399252}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d5913e414552403a8b47d24f21ec3ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  flagId: window1_removed
+  value: 1
+--- !u!114 &2149702678020754701
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7464971240057399252}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4640ca27e57b643518a52000aa013104, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lvl1: wind_lvl1
+  lvl2: wind_lvl2
+  lvl3: wind_lvl3
+  dirLeft: wind_dir_left
+  dirRight: wind_dir_right
+  oilItem: oil
+  onStep1:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 5393547088080342168}
+        m_TargetAssemblyTypeName: SetFlagAction, Assembly-CSharp
+        m_MethodName: Execute
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 3387890503506595582}
+        m_TargetAssemblyTypeName: ShowPopupAction, Assembly-CSharp
+        m_MethodName: Execute
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  onStep2:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 640821944937045601}
+        m_TargetAssemblyTypeName: SetFlagAction, Assembly-CSharp
+        m_MethodName: Execute
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 7356173232710388566}
+        m_TargetAssemblyTypeName: SetFlagAction, Assembly-CSharp
+        m_MethodName: Execute
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 3781015573532922137}
+        m_TargetAssemblyTypeName: ShowPopupAction, Assembly-CSharp
+        m_MethodName: Execute
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  onStep3:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8314093072347957400}
+        m_TargetAssemblyTypeName: SetFlagAction, Assembly-CSharp
+        m_MethodName: Execute
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 2031481007442227504}
+        m_TargetAssemblyTypeName: SetFlagAction, Assembly-CSharp
+        m_MethodName: Execute
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 8586502909530023506}
+        m_TargetAssemblyTypeName: DelayAction, Assembly-CSharp
+        m_MethodName: Execute
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &5393547088080342168
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7464971240057399252}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d5913e414552403a8b47d24f21ec3ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  flagId: wind_lvl1
+  value: 1
+--- !u!114 &3387890503506595582
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7464971240057399252}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22bd5150f8c6a47a3916fd8123a211c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  owner: Popup
+  message: 'A refreshing breeze is blowing. It feels good.
+
+'
+  requireConfirm: 0
+  durationSeconds: 1.5
+  onConfirmed:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &640821944937045601
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7464971240057399252}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d5913e414552403a8b47d24f21ec3ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  flagId: wind_lvl1
+  value: 0
+--- !u!114 &7356173232710388566
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7464971240057399252}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d5913e414552403a8b47d24f21ec3ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  flagId: wind_lvl2
+  value: 1
+--- !u!114 &3781015573532922137
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7464971240057399252}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22bd5150f8c6a47a3916fd8123a211c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  owner: Popup
+  message: 'It''s quite a strong wind. It''s difficult to move forward.
+
+'
+  requireConfirm: 0
+  durationSeconds: 1
+  onConfirmed:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &8314093072347957400
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7464971240057399252}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d5913e414552403a8b47d24f21ec3ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  flagId: wind_lvl2
+  value: 0
+--- !u!114 &2031481007442227504
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7464971240057399252}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d5913e414552403a8b47d24f21ec3ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  flagId: wind_lvl3
+  value: 1
+--- !u!114 &8586502909530023506
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7464971240057399252}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 198e26231230a44e191882c9c99ba96b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  seconds: 10
+  onDone:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 4606002356809542145}
+        m_TargetAssemblyTypeName: ShowPopupAction, Assembly-CSharp
+        m_MethodName: Execute
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &4606002356809542145
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7464971240057399252}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22bd5150f8c6a47a3916fd8123a211c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  owner: Popup
+  message: It's a tremendous gust. There's no way to move forward.
+  requireConfirm: 1
+  durationSeconds: 0
+  onConfirmed:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 6105970406306035912}
+        m_TargetAssemblyTypeName: ShowPopupAction, Assembly-CSharp
+        m_MethodName: Execute
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 3860880992942641375}
+        m_TargetAssemblyTypeName: LoadSceneAction, Assembly-CSharp
+        m_MethodName: Execute
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &6105970406306035912
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7464971240057399252}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22bd5150f8c6a47a3916fd8123a211c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  owner: Popup
+  message: Restart? Press Enter to confirm
+  requireConfirm: 1
+  durationSeconds: 0
+  onConfirmed:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &3860880992942641375
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7464971240057399252}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56370fa00874b4e679232019a5745021, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneName: Stage_Field1
+  delayRealtime: 1

@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Ground
+  - PlayerStart
+  - Carbon
+  - Conveyor
+  - CameraBounds
+  - PlayerReturn
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Player
+  - Water
+  - UI
+  - PlayerStart
+  - car
+  - ground
+  - key
+  - me
+  - texture
+  - Lift
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - CameraBounds
+  - 
+  m_SortingLayers:
+  - name: texture
+    uniqueID: 1441412703
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: UI
+    uniqueID: 3118184937
+    locked: 0
+  - name: Player
+    uniqueID: 1683273879
+    locked: 0
+  - name: New Layer 3
+    uniqueID: 876402579
+    locked: 0
+  - name: Inventory
+    uniqueID: 2773026161
+    locked: 0

@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 459df031a87a44aa49218ef3b8ad3841, type: 3}
+  m_Name: Tom_1-1
+  m_EditorClassIdentifier: 
+  id: tom_1-1
+  displayName: TOM
+  lines:
+  - text: "\u3084\u3042 \u304A\u308C\u306E\u306A\u307E\u3048\u306F TOM"
+    portrait: {fileID: 21300000, guid: 5fd745173088b4ca1907d6fe476ef724, type: 3}
+    voice: {fileID: 0}
+  - text: "\u3068\u3064\u305C\u3093\u3060\u3051\u3069\u30AD\u30DF\u306B\u304D\u3087\u3046\u308A\u3087\u304F\u3057\u3066\u307B\u3057\u3044\u3053\u3068\u304C\u3042\u308B"
+    portrait: {fileID: 21300000, guid: 5fd745173088b4ca1907d6fe476ef724, type: 3}
+    voice: {fileID: 0}
+  - text: "\u304A\u308C\u304C\u304A\u3068\u3057\u305F\u300C\u3066\u304C\u307F\u306E\u3057\u3078\u3093\u300D\u3092\u3042\u3064\u3081\u308B\u306E\u3092\u3066\u3064\u3060\u3063\u3066\u304F\u308C\u306A\u3044\u304B?"
+    portrait: {fileID: 21300000, guid: 5fd745173088b4ca1907d6fe476ef724, type: 3}
+    voice: {fileID: 0}
+  - text: "...\u3042\u308A\u304C\u3068\u3046!\u307C\u3046\u3051\u3093\u3061\u3085\u3046
+      \u308F\u304B\u3089\u306A\u3044\u3053\u3068\u306F\u304A\u308C\u304C\u30B5\u30DD\u30FC\u30C8\u3059\u308B\u306D!"
+    portrait: {fileID: 21300000, guid: 5fd745173088b4ca1907d6fe476ef724, type: 3}
+    voice: {fileID: 0}
+  playOnce: 1
+  setFlagsOnComplete: []
+  addItemsOnComplete: []
